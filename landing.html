@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YallaConecta — Tradução Árabe-Português com Validade Legal | Brasil</title>
+<meta name="description" content="Seus documentos em árabe com validade legal no Brasil. Certidões, contratos, diplomas, imigração. Atendimento humano, entrega rápida para todo o Brasil.">
+<link rel="canonical" href="https://yallaconecta.com">
+<link rel="alternate" hreflang="pt-BR" href="https://yallaconecta.com">
+<link rel="alternate" hreflang="ar" href="https://yallaconecta.com/ar">
+<link rel="alternate" hreflang="x-default" href="https://yallaconecta.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{background:#F8F5F0;color:#1A1A1A;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+:root{
+  --red:#CC1414;--red-dark:#9E0F0F;--red-light:#E84040;
+  --black:#1A1A1A;--white:#FFFFFF;--cream:#F8F5F0;
+  --grey:#6B6B6B;--grey-light:#E8E4DF;
+  --f-disp:'Playfair Display',Georgia,serif;
+  --f-ar:'Amiri',Georgia,serif;
+  --f-body:'Inter',system-ui,sans-serif;
+  --shadow-sm:0 2px 8px rgba(0,0,0,.08);
+  --shadow-md:0 4px 24px rgba(0,0,0,.12);
+  --shadow-lg:0 12px 48px rgba(0,0,0,.14);
+}
+
+/* NAV */
+#nav{position:fixed;top:0;left:0;right:0;z-index:999;padding:0 5vw;height:68px;display:flex;align-items:center;justify-content:space-between;background:rgba(248,245,240,.92);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid rgba(0,0,0,.06);transition:box-shadow .3s}
+#nav.scrolled{box-shadow:var(--shadow-sm)}
+.nav-logo{height:38px;width:auto}
+.nav-links{display:flex;align-items:center;gap:32px}
+.nav-links a{color:var(--black);text-decoration:none;font-size:14px;font-weight:500;letter-spacing:.02em;transition:color .2s}
+.nav-links a:hover{color:var(--red)}
+.nav-cta{background:var(--red);color:#fff;padding:10px 24px;font-size:14px;font-weight:500;text-decoration:none;letter-spacing:.02em;transition:background .2s;border:none;cursor:pointer}
+.nav-cta:hover{background:var(--red-dark)}
+
+/* HERO */
+#hero{min-height:100svh;display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:100px 5vw 60px;gap:60px;background:#1A1A1A;position:relative;overflow:hidden}
+#hero::before{content:'';position:absolute;right:-5%;top:-10%;width:55%;height:120%;background:var(--red);clip-path:polygon(12% 0,100% 0,100% 100%,0 100%);opacity:.95;z-index:0}
+.hero-content{position:relative;z-index:1}
+.hero-tag{display:inline-flex;align-items:center;gap:8px;background:rgba(204,20,20,.15);border:1px solid rgba(204,20,20,.35);color:#E84040;padding:6px 14px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:28px}
+.hero-tag::before{content:'';width:6px;height:6px;background:var(--red-light);border-radius:50%;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.4;transform:scale(.8)}50%{opacity:1;transform:scale(1.2)}}
+.hero-h1{font-family:var(--f-disp);font-size:clamp(38px,4.5vw,64px);font-weight:700;line-height:1.1;color:#fff;margin-bottom:12px}
+.hero-h1 em{font-style:italic;color:var(--red-light)}
+.hero-ar{font-family:var(--f-ar);font-size:clamp(22px,2.5vw,36px);direction:rtl;color:rgba(255,255,255,.45);margin-bottom:28px;line-height:1.4}
+.hero-sub{font-size:clamp(15px,1.4vw,18px);color:rgba(255,255,255,.65);line-height:1.75;max-width:460px;margin-bottom:40px}
+.hero-actions{display:flex;gap:16px;flex-wrap:wrap}
+.btn-red{display:inline-block;background:var(--red);color:#fff;padding:16px 36px;font-size:15px;font-weight:500;text-decoration:none;letter-spacing:.03em;transition:all .2s}
+.btn-red:hover{background:var(--red-dark);transform:translateY(-2px)}
+.btn-outline-white{display:inline-block;border:1.5px solid rgba(255,255,255,.4);color:rgba(255,255,255,.8);padding:15px 32px;font-size:15px;text-decoration:none;letter-spacing:.03em;transition:all .2s}
+.btn-outline-white:hover{border-color:#fff;color:#fff}
+.hero-visual{position:relative;z-index:1;display:flex;flex-direction:column;gap:16px;align-items:flex-start}
+.hero-cred-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(8px);padding:20px 24px;min-width:220px}
+.hero-cred-label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:6px}
+.hero-cred-value{font-family:var(--f-disp);font-size:18px;color:#fff;font-weight:600}
+.hero-cred-sub{font-size:12px;color:rgba(255,255,255,.45);margin-top:3px}
+
+/* STATS STRIP */
+#stats{background:#CC1414;padding:36px 5vw;display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.stat-item{text-align:center;padding:16px;position:relative}
+.stat-item+.stat-item::before{content:'';position:absolute;left:0;top:20%;height:60%;width:1px;background:rgba(255,255,255,.2)}
+.stat-num{font-family:var(--f-disp);font-size:clamp(32px,3.5vw,52px);font-weight:700;color:#fff;line-height:1}
+.stat-label{font-size:13px;color:rgba(255,255,255,.75);margin-top:6px;letter-spacing:.04em}
+
+/* SERVICES */
+#services{padding:96px 5vw;background:#fff}
+.section-tag{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--red);margin-bottom:12px}
+.section-title{font-family:var(--f-disp);font-size:clamp(28px,3vw,42px);font-weight:700;color:var(--black);line-height:1.2;margin-bottom:16px}
+.section-sub{font-size:16px;color:var(--grey);line-height:1.7;max-width:540px;margin-bottom:56px}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.service-card{border:1px solid var(--grey-light);padding:36px 28px;transition:all .3s;position:relative;overflow:hidden}
+.service-card::before{content:'';position:absolute;bottom:0;left:0;width:100%;height:3px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.service-card:hover{border-color:var(--red);box-shadow:var(--shadow-md)}
+.service-card:hover::before{transform:scaleX(1)}
+.service-icon{width:44px;height:44px;background:#F0DFDF;display:flex;align-items:center;justify-content:center;margin-bottom:20px}
+.service-icon svg{width:22px;height:22px;color:var(--red);fill:var(--red)}
+.service-title{font-family:var(--f-disp);font-size:19px;font-weight:600;color:var(--black);margin-bottom:10px}
+.service-desc{font-size:14px;color:var(--grey);line-height:1.7}
+
+/* PROCESS */
+#process{background:var(--cream);padding:88px 5vw}
+.process-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-top:56px}
+.process-steps{display:flex;flex-direction:column;gap:0}
+.process-step{display:flex;gap:24px;padding:28px 0;border-bottom:1px solid var(--grey-light)}
+.process-step:last-child{border-bottom:none}
+.step-num{font-family:var(--f-disp);font-size:40px;font-weight:700;color:rgba(204,20,20,.12);line-height:1;min-width:52px}
+.step-content h4{font-size:16px;font-weight:600;color:var(--black);margin-bottom:6px}
+.step-content p{font-size:14px;color:var(--grey);line-height:1.7}
+.process-cta-box{background:var(--black);padding:48px 40px;position:relative;overflow:hidden}
+.process-cta-box::after{content:'يلّا';font-family:var(--f-ar);font-size:200px;position:absolute;right:-20px;bottom:-40px;color:rgba(255,255,255,.04);line-height:1;pointer-events:none}
+.process-cta-box h3{font-family:var(--f-disp);font-size:clamp(22px,2.5vw,32px);font-weight:700;color:#fff;line-height:1.3;margin-bottom:16px}
+.process-cta-box p{font-size:15px;color:rgba(255,255,255,.65);line-height:1.75;margin-bottom:32px}
+.btn-red-sm{display:inline-block;background:var(--red);color:#fff;padding:13px 28px;font-size:14px;font-weight:500;text-decoration:none;transition:background .2s}
+.btn-red-sm:hover{background:var(--red-dark)}
+.contact-line{display:flex;align-items:center;gap:10px;margin-top:16px;color:rgba(255,255,255,.5);font-size:13px}
+.contact-line a{color:rgba(255,255,255,.75);text-decoration:none}
+.contact-line a:hover{color:#fff}
+
+/* PARTNERS */
+#partners{padding:80px 5vw;background:#fff;border-top:1px solid var(--grey-light)}
+.partners-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:48px;flex-wrap:wrap;gap:16px}
+.partners-title{font-family:var(--f-disp);font-size:clamp(22px,2vw,30px);font-weight:600;color:var(--black)}
+.partners-sub{font-size:14px;color:var(--grey)}
+.logos-row{display:flex;flex-wrap:wrap;gap:0;border:1px solid var(--grey-light)}
+.logo-slot{flex:1;min-width:140px;display:flex;align-items:center;justify-content:center;padding:28px 24px;border-right:1px solid var(--grey-light);border-bottom:1px solid var(--grey-light);transition:background .2s}
+.logo-slot:hover{background:var(--cream)}
+.logo-slot:last-child{border-right:none}
+.logo-slot img{max-height:36px;max-width:120px;object-fit:contain;filter:grayscale(100%);opacity:.5;transition:all .3s}
+.logo-slot:hover img{filter:none;opacity:1}
+.logo-placeholder{width:100px;height:32px;background:var(--grey-light);display:flex;align-items:center;justify-content:center;font-size:11px;color:rgba(0,0,0,.3);letter-spacing:.05em}
+
+/* TESTIMONIALS */
+#testimonials{background:var(--black);padding:88px 5vw}
+.testimonials-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:52px}
+.testi-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);padding:32px 28px;position:relative;transition:border-color .3s}
+.testi-card:hover{border-color:rgba(204,20,20,.4)}
+.testi-quote{font-family:var(--f-disp);font-size:48px;color:var(--red);line-height:1;margin-bottom:16px;opacity:.6}
+.testi-text{font-size:15px;color:rgba(255,255,255,.75);line-height:1.75;margin-bottom:24px;font-style:italic}
+.testi-author{font-size:13px;font-weight:600;color:#fff;letter-spacing:.03em}
+.testi-role{font-size:12px;color:rgba(255,255,255,.4);margin-top:3px}
+.testi-country{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:rgba(204,20,20,.8);margin-top:10px}
+
+/* PARTNER CTA */
+#parceiro{background:var(--cream);padding:96px 5vw;border-top:4px solid var(--red)}
+.parceiro-inner{display:grid;grid-template-columns:1fr 1.1fr;gap:80px;align-items:start}
+.parceiro-info .section-title{margin-bottom:16px}
+.parceiro-info p{font-size:16px;color:var(--grey);line-height:1.75;margin-bottom:28px}
+.parceiro-benefits{list-style:none;display:flex;flex-direction:column;gap:14px;margin-bottom:36px}
+.parceiro-benefits li{display:flex;align-items:flex-start;gap:12px;font-size:15px;color:var(--black)}
+.parceiro-benefits li::before{content:'';width:20px;height:20px;min-width:20px;background:var(--red);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23fff'%3E%3Cpath fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd'/%3E%3C/svg%3E");background-size:12px;background-repeat:no-repeat;background-position:center}
+.parceiro-form{background:#fff;padding:40px 36px;box-shadow:var(--shadow-md)}
+.parceiro-form h3{font-family:var(--f-disp);font-size:22px;font-weight:700;color:var(--black);margin-bottom:28px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-group{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
+.form-group.full{grid-column:1/-1}
+.form-group label{font-size:13px;font-weight:500;color:var(--black);letter-spacing:.02em}
+.form-group input,.form-group select,.form-group textarea{border:1.5px solid var(--grey-light);padding:11px 14px;font-size:14px;font-family:var(--f-body);color:var(--black);background:#fff;transition:border-color .2s;outline:none;width:100%}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--red)}
+.form-group textarea{resize:vertical;min-height:88px}
+.form-required{color:var(--red)}
+.btn-submit{width:100%;background:var(--red);color:#fff;border:none;padding:15px;font-size:15px;font-weight:600;letter-spacing:.04em;cursor:pointer;transition:background .2s;font-family:var(--f-body);margin-top:8px}
+.btn-submit:hover{background:var(--red-dark)}
+.form-note{font-size:12px;color:var(--grey);text-align:center;margin-top:12px;line-height:1.6}
+
+/* FOOTER */
+footer{background:var(--black);padding:60px 5vw 32px;color:rgba(255,255,255,.65)}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:48px;margin-bottom:48px}
+.footer-brand .footer-logo{height:40px;margin-bottom:20px;filter:brightness(0) invert(1)}
+.footer-brand p{font-size:14px;line-height:1.75;max-width:300px}
+.footer-col h4{font-size:13px;font-weight:600;color:#fff;letter-spacing:.08em;text-transform:uppercase;margin-bottom:18px}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+.footer-col ul li a{color:rgba(255,255,255,.55);text-decoration:none;font-size:14px;transition:color .2s}
+.footer-col ul li a:hover{color:var(--red-light)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.footer-bottom p{font-size:13px}
+.footer-jucemg{font-size:12px;color:rgba(255,255,255,.35)}
+.footer-ar{font-family:var(--f-ar);font-size:14px;direction:rtl;color:rgba(255,255,255,.25)}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  #hero{grid-template-columns:1fr;gap:40px;padding:88px 5vw 56px}
+  #hero::before{display:none}
+  #hero{background:linear-gradient(160deg,#1A1A1A 60%,#4A0A0A)}
+  #stats{grid-template-columns:repeat(2,1fr)}
+  .services-grid{grid-template-columns:1fr}
+  .process-grid{grid-template-columns:1fr}
+  .testimonials-grid{grid-template-columns:1fr}
+  .parceiro-inner{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .hero-visual{flex-direction:row;flex-wrap:wrap}
+}
+@media(max-width:600px){
+  #nav .nav-links{display:none}
+  #stats{grid-template-columns:repeat(2,1fr)}
+  .stat-item+.stat-item::before{display:none}
+  .form-row{grid-template-columns:1fr}
+  .logos-row{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "YallaConecta",
+  "url": "https://yallaconecta.com",
+  "logo": "https://yallaconecta.com/assets/logo.png",
+  "description": "Agência especializada em tradução árabe-português e português-árabe com validade legal no Brasil. Coordenação de tradutores públicos juramentados e execução de tradução certificada.",
+  "telephone": "+55 41 99211-2999",
+  "email": "info@yallaconecta.com",
+  "address": [
+    {"@type": "PostalAddress", "addressLocality": "Curitiba", "addressRegion": "PR", "addressCountry": "BR"},
+    {"@type": "PostalAddress", "addressLocality": "Joinville", "addressRegion": "SC", "addressCountry": "BR"},
+    {"@type": "PostalAddress", "addressLocality": "Itapoá", "addressRegion": "SC", "addressCountry": "BR"},
+    {"@type": "PostalAddress", "addressLocality": "São Paulo", "addressRegion": "SP", "addressCountry": "BR"}
+  ],
+  "areaServed": {"@type": "Country", "name": "Brasil"},
+  "serviceType": ["Tradução juramentada árabe-português", "Tradução certificada árabe-português", "Interpretação árabe-português"],
+  "currenciesAccepted": "BRL",
+  "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00"},
+  "sameAs": ["https://yallaconecta.com/ar/"]
+}
+</script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="https://yallaconecta.com">
+    <img src="logo.webp" alt="YallaConecta" class="nav-logo">
+  </a>
+  <div class="nav-links">
+    <a href="#services">Serviços</a>
+    <a href="#partners">Parceiros</a>
+    <a href="#testimonials">Clientes</a>
+    <a href="#parceiro">Seja Parceiro</a>
+  </div>
+  <a href="#contato" class="nav-cta">Solicitar Tradução</a>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-content">
+    <div class="hero-tag">Árabe ⟷ Português · Validade Legal no Brasil</div>
+    <h1 class="hero-h1">Seus documentos em árabe,<br>reconhecidos em <em>todo o Brasil</em></h1>
+    <p class="hero-ar">وثائقك بالعربية، معترف بها في كل البرازيل</p>
+    <p class="hero-sub">Para quem tem raízes no Oriente Médio e vida no Brasil. Certidões de nascimento, contratos, diplomas e processos de imigração — cada palavra traduzida com o cuidado que a sua história merece.</p>
+    <div class="hero-actions">
+      <a href="#contato" class="btn-red">Solicitar tradução →</a>
+      <a href="#services" class="btn-outline-white">Ver serviços</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-cred-card">
+      <div class="hero-cred-label">Cobertura</div>
+      <div class="hero-cred-value">Árabe ⟷ Português</div>
+      <div class="hero-cred-sub">Curitiba · Joinville · São Paulo</div>
+    </div>
+    <div class="hero-cred-card">
+      <div class="hero-cred-label">Cobertura</div>
+      <div class="hero-cred-value">Brasil ⟷ Oriente Médio</div>
+      <div class="hero-cred-sub">Árabe · 22 países falantes</div>
+    </div>
+    <div class="hero-cred-card">
+      <div class="hero-cred-label">Entrega</div>
+      <div class="hero-cred-value">Digital + Físico</div>
+      <div class="hero-cred-sub">Enviamos para todo o Brasil</div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+  <div class="stat-item">
+    <div class="stat-num">AR ⟷ PT</div>
+    <div class="stat-label">Par linguístico exclusivo</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">2–4</div>
+    <div class="stat-label">Dias de prazo estimado</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">22</div>
+    <div class="stat-label">Países árabe-falantes</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">3</div>
+    <div class="stat-label">Cidades de atendimento presencial</div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <p class="section-tag">O que fazemos</p>
+  <h2 class="section-title">Cada documento conta uma história.<br>Nós garantimos que ela seja entendida.</h2>
+  <p class="section-sub">Da certidão de nascimento que atravessou décadas à proposta comercial que pode fechar um negócio — cada palavra importa. Traduzimos com precisão e cuidado.</p>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
+      </div>
+      <h3 class="service-title">Documentos de Imigração</h3>
+      <p class="service-desc">Certidões de nascimento, casamento, óbito, passaportes sírios, libaneses, egípcios e demais países árabes. Tradução com apostilamento a pedido.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M20 6h-2.18c.07-.44.18-.88.18-1.33C18 2.1 15.9 0 13.33 0c-1.33 0-2.6.52-3.52 1.44L8 3.25l-1.81-1.81C5.27.52 4 0 2.67 0 1.1 0 0 1.1 0 2.67c0 .45.11.89.18 1.33H0v2h22V6h-2zM3.56 6c-.03-.16-.06-.33-.06-.5 0-.9.73-1.63 1.63-1.63.52 0 .95.21 1.28.54L8 6H3.56zM18.5 5.5c0 .17-.03.34-.06.5H14l1.59-1.59c.33-.33.76-.54 1.28-.54.9 0 1.63.73 1.63 1.63zM2 8v2h11V8H2zm12 0v2h8V8h-8zm-4 4v8h2v-8h-2zm-6 0H2v8h2v-6h1v6h2v-6h1v6h2v-8H4zm12 0h-2v8h2v-3h1v3h2v-3h1v3h2v-8h-4v3h-2v-3z"/></svg>
+      </div>
+      <h3 class="service-title">Contratos & Negócios</h3>
+      <p class="service-desc">Contratos comerciais, procurações, atos constitutivos e documentos societários. Tradução bidirecional para operações Brasil-Oriente Médio.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18V15c0 2.21 3.13 4 7 4s7-1.79 7-4v-3.82L22 9 12 3zM18 11.99L12 15l-6-3.01V11l6 3.27L18 11v.99zM12 5.44L18.76 9 12 12.56 5.24 9 12 5.44zM12 17c-2.76 0-5-1.12-5-2v-.95l5 2.72 5-2.72V15c0 .88-2.24 2-5 2z"/></svg>
+      </div>
+      <h3 class="service-title">Diplomas & Revalidação</h3>
+      <p class="service-desc">Históricos escolares, diplomas universitários e certificados técnicos para revalidação pelo MEC. Atendemos sírios, libaneses, egípcios e jordanianos.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 2.18l7 3.12V11c0 4.52-3.08 8.74-7 9.93C8.08 19.74 5 15.52 5 11V6.3l7-3.12z"/></svg>
+      </div>
+      <h3 class="service-title">Vistos & Consulados</h3>
+      <p class="service-desc">Documentação completa para processos consulares. Vistos de residência, trabalho e reunificação familiar. Atendemos consulados em todo o Brasil.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+      </div>
+      <h3 class="service-title">Apostilamento</h3>
+      <p class="service-desc">Orientação e encaminhamento para apostilamento de Haia. Documentos com validade internacional em mais de 120 países signatários da Convenção.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
+      </div>
+      <h3 class="service-title">Interpretação</h3>
+      <p class="service-desc">Interpretação simultânea e consecutiva para reuniões, audiências e negociações. Presencial em Curitiba (PR) e São Paulo. Remoto para todo o Brasil.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <p class="section-tag">Como funciona</p>
+  <h2 class="section-title">Simples de pedir.<br>Sério na entrega.</h2>
+  <div class="process-grid">
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-num">01</div>
+        <div class="step-content">
+          <h4>Envie o documento</h4>
+          <p>Fotos nítidas ou PDF por WhatsApp ou email. Avaliamos gratuitamente e enviamos orçamento em até 2 horas úteis.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num">02</div>
+        <div class="step-content">
+          <h4>Receba o orçamento</h4>
+          <p>Prazo e valor definidos conforme o volume e urgência. Pagamento facilitado por PIX, boleto ou cartão.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num">03</div>
+        <div class="step-content">
+          <h4>Tradução e conferência</h4>
+          <p>Tradução realizada por tradutor juramentado registrado em Junta Comercial, com revisão técnica antes da entrega.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num">04</div>
+        <div class="step-content">
+          <h4>Entrega digital e física</h4>
+          <p>PDF assinado digitalmente + via física enviada pelos Correios para todo o Brasil ou retirada em Curitiba (PR).</p>
+        </div>
+      </div>
+    </div>
+    <div class="process-cta-box" id="contato">
+      <h3>Traga o documento que importa para você.</h3>
+      <p>Pode ser a certidão do seu filho, o contrato que vai mudar sua empresa, ou o diploma que levou anos para conquistar. Orçamento sem compromisso em até 2 horas úteis.</p>
+      <a href="https://wa.me/5541992112999?text=Ol%C3%A1!%20Preciso%20de%20uma%20tradu%C3%A7%C3%A3o%20juramentada." class="btn-red-sm">WhatsApp →</a>
+      <div class="contact-line">
+        ou envie para <a href="mailto:info@yallaconecta.com">info@yallaconecta.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARTNERS -->
+<section id="partners">
+  <div class="partners-header">
+    <div>
+      <p class="section-tag">Parceiros & Clientes</p>
+      <h2 class="partners-title">Reconhecidos no Brasil e no mundo árabe</h2>
+    </div>
+    <p class="partners-sub">Escritórios de advocacia, consulados,<br>universidades e empresas exportadoras.</p>
+  </div>
+
+  <!-- Parceria destaque: Institut du Monde Arabe -->
+  <div style="display:grid;grid-template-columns:1fr 1.4fr;gap:40px;align-items:center;border:1px solid var(--grey-light);padding:36px;margin-bottom:32px">
+    <div>
+      <p class="section-tag">Parceria Internacional</p>
+      <h3 style="font-family:'Playfair Display',serif;font-size:clamp(20px,2vw,28px);font-weight:700;color:var(--black);margin-bottom:12px;line-height:1.3">Institut du Monde Arabe</h3>
+      <p style="font-size:15px;color:var(--grey);line-height:1.75;margin-bottom:20px">Parceria oficial com o Institut du Monde Arabe, em Paris — uma das maiores instituições do mundo para a cultura e civilização árabe. Reconhecimento que atravessa o Atlântico.</p>
+      <span style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--red);font-weight:600">Paris, França ·  منظمة دولية</span>
+    </div>
+    <div style="text-align:center">
+      <img src="parceria-institucional.webp" alt="Certificado de Parceria Institucional — Institut du Monde Arabe" style="max-width:280px;width:100%;border:1px solid var(--grey-light);box-shadow:0 4px 24px rgba(0,0,0,.08)">
+    </div>
+  </div>
+
+</section>
+
+<!-- CONFIE O SEU DOCUMENTO -->
+<section id="confie" style="background:#1A1A1A;padding:80px 24px;text-align:center">
+  <p class="section-tag" style="color:rgba(204,20,20,.8)">Por que a YallaConecta?</p>
+  <h2 style="color:#fff;font-family:'Playfair Display',serif;font-size:clamp(26px,3vw,40px);margin-bottom:24px">
+    Precisão linguística.<br>Validade jurídica.
+  </h2>
+  <p style="color:rgba(255,255,255,.75);max-width:560px;margin:0 auto 40px;line-height:1.7">
+    Combinamos tradução técnica de alta precisão com coordenação de tradutores públicos juramentados credenciados pelas Juntas Comerciais dos estados de PR, SC e SP.
+  </p>
+  <a href="https://wa.me/5541992112999?text=Ol%C3%A1!%20Preciso%20de%20uma%20tradu%C3%A7%C3%A3o." style="display:inline-block;background:#CC1414;color:#fff;padding:16px 36px;border-radius:4px;font-weight:600;text-decoration:none;font-size:1.05rem">
+    Fale conosco no WhatsApp →
+  </a>
+</section>
+
+<!-- SEJA PARCEIRO -->
+<section id="parceiro">
+  <div class="parceiro-inner">
+    <div class="parceiro-info">
+      <p class="section-tag">Para tradutores</p>
+      <h2 class="section-title">Seja um Tradutor Parceiro YallaConecta</h2>
+      <p>Faça parte da nossa rede de tradutores juramentados e profissionais bilíngues árabe-português. Receba demandas de clientes, trabalhe com flexibilidade e faça parte de um mercado em crescimento.</p>
+      <ul class="parceiro-benefits">
+        <li>Acesso a demandas regulares de tradução</li>
+        <li>Pagamentos pontuais via PIX ou transferência</li>
+        <li>Suporte técnico e revisão da equipe YallaConecta</li>
+        <li>Flexibilidade de horário e trabalho remoto</li>
+        <li>Especialização em documentos jurídicos, médicos e técnicos</li>
+        <li>Rede de contatos com escritórios e consulados</li>
+      </ul>
+      <div style="background:#fff;padding:20px 24px;border-left:4px solid var(--red)">
+        <p style="font-size:14px;color:var(--grey);line-height:1.7"><strong style="color:var(--black)">Requisito mínimo:</strong> Ser tradutor público juramentado registrado em Junta Comercial estadual, ou ter formação em Letras Árabe-Português com comprovação de experiência prática.</p>
+      </div>
+    </div>
+    <div class="parceiro-form">
+      <h3>Formulário de cadastro</h3>
+      <form action="https://formsubmit.co/info@yallaconecta.com" method="POST">
+        <input type="hidden" name="_subject" value="Novo cadastro de Tradutor Parceiro YallaConecta">
+        <input type="hidden" name="_next" value="https://yallaconecta.com/parceiro-obrigado">
+        <input type="hidden" name="_captcha" value="false">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Nome completo <span class="form-required">*</span></label>
+            <input type="text" name="nome" required placeholder="Seu nome">
+          </div>
+          <div class="form-group">
+            <label>Email <span class="form-required">*</span></label>
+            <input type="email" name="email" required placeholder="seu@email.com">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>WhatsApp / Telefone <span class="form-required">*</span></label>
+            <input type="tel" name="telefone" required placeholder="(11) 99999-9999">
+          </div>
+          <div class="form-group">
+            <label>Cidade / Estado <span class="form-required">*</span></label>
+            <input type="text" name="cidade" required placeholder="Curitiba, PR">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Estado do credenciamento (JUCE)</label>
+            <select name="junta">
+              <option value="">Selecione (se aplicável)...</option>
+              <option>SC – Santa Catarina (JUCESC)</option>
+              <option>MG – Minas Gerais (JUCEMG)</option>
+              <option>SP – São Paulo (JUCESP)</option>
+              <option>RJ – Rio de Janeiro (JUCERJ)</option>
+              <option>RS – Rio Grande do Sul (JUCERGS)</option>
+              <option>Outro estado</option>
+              <option>Não sou tradutor público juramentado</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Nº CPTP / Registro</label>
+            <input type="text" name="cptp" placeholder="Número do registro (se tiver)">
+          </div>
+        </div>
+        <div class="form-group full">
+          <label>Especialização <span class="form-required">*</span></label>
+          <select name="especializacao" required>
+            <option value="">Selecione...</option>
+            <option>Jurídico / Legal</option>
+            <option>Médico / Farmacêutico</option>
+            <option>Técnico / Engenharia</option>
+            <option>Comercial / Negócios</option>
+            <option>Acadêmico / Educação</option>
+            <option>Geral (todos os tipos)</option>
+          </select>
+        </div>
+        <div class="form-group full">
+          <label>Anos de experiência como tradutor</label>
+          <select name="experiencia">
+            <option value="">Selecione...</option>
+            <option>Menos de 1 ano</option>
+            <option>1 a 3 anos</option>
+            <option>3 a 5 anos</option>
+            <option>Mais de 5 anos</option>
+          </select>
+        </div>
+        <div class="form-group full">
+          <label>LinkedIn ou currículo (URL)</label>
+          <input type="url" name="linkedin" placeholder="https://linkedin.com/in/seu-perfil">
+        </div>
+        <div class="form-group full">
+          <label>Apresentação breve</label>
+          <textarea name="apresentacao" placeholder="Conte um pouco sobre sua experiência, formação e por que quer ser parceiro YallaConecta..."></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Enviar candidatura →</button>
+        <p class="form-note">Analisamos todas as candidaturas em até 5 dias úteis. Os dados são usados exclusivamente para contato da equipe YallaConecta.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <img src="logo.webp" alt="YallaConecta" class="footer-logo">
+      <p>Tradução árabe-português com validade legal no Brasil. Parceiro oficial do Institut du Monde Arabe. Atendemos todo o Brasil com entrega digital e física.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Serviços</h4>
+      <ul>
+        <li><a href="#services">Imigração</a></li>
+        <li><a href="#services">Contratos</a></li>
+        <li><a href="#services">Diplomas</a></li>
+        <li><a href="#services">Vistos</a></li>
+        <li><a href="#services">Apostilamento</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Links</h4>
+      <ul>
+        <li><a href="https://yallaconecta.com">Site principal</a></li>
+        <li><a href="#parceiro">Seja parceiro</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="https://yallaconecta.com/a-ponte">Sobre nós</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024 YallaConecta. Todos os direitos reservados.</p>
+    <p class="footer-jucemg">Tradutora Pública Juramentada · Registrada em Junta Comercial</p>
+    <p class="footer-ar">يلّا كونيكتا — الترجمة القانونية المعتمدة</p>
+  </div>
+</footer>
+
+<script>
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 40);
+}, {passive: true});
+</script>
+</body>
+</html>
