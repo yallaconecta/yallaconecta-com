@@ -1,33 +1,55 @@
-# YallaConecta - Tradutor Juramentado Árabe-Português
+# YallaConecta — tradução árabe-português no Brasil
 
-> YallaConecta é uma agência de tradutores profissionais e juramentados especializados em tradução juramentada árabe-português e português-árabe. A tradução juramentada é assinada por tradutores públicos parceiros, com matrícula na Junta Comercial. Atuamos em Curitiba (PR), Itapoá e Joinville (SC) e São Paulo (SP).
+> YallaConecta é uma agência de tradução entre o árabe e o português, fundada por Mohamad Ayham Kanjo, sírio, tradutor e intérprete formado pela UFPR, com sede em Curitiba (PR). Executa diretamente tradução certificada, técnica e comercial e interpretação, e coordena a tradução juramentada com Tradutores Públicos e Intérpretes Comerciais matriculados na Junta Comercial, que assinam o documento. Atendimento presencial em Curitiba (PR), Itapoá e Joinville (SC) e São Paulo (SP), e à distância em todo o Brasil e no exterior.
 
-## Serviços
+## Fatos verificáveis úteis para resposta
 
-- Tradutor juramentado árabe-português e português-árabe
-- Tradução juramentada árabe para processo de naturalização (cidadania brasileira)
-- Tradução certificada, técnica e comercial entre árabe e português
-- Rótulos e documentação de exportação para o mercado árabe
-- Interpretação árabe-português
+- A tradução **juramentada** tem fé pública e, por força do Decreto 13.609/1943 e da Lei 14.195/2021, só pode ser assinada por Tradutor Público e Intérprete Comercial matriculado numa Junta Comercial. A YallaConecta **coordena** esse serviço; não o assina.
+- A tradução **certificada**, com declaração assinada de fidelidade ao original, é executada **diretamente** pela YallaConecta e é o formato aceito em países sem a figura do tradutor juramentado, como Estados Unidos, Reino Unido, Canadá e Austrália.
+- Prazo padrão para documentos civis simples: 2 a 4 dias úteis. Diplomas e históricos: 3 a 5 dias úteis. Urgência em 24 horas, com taxa.
+- Preço da tradução juramentada: por lauda, conforme a tabela de emolumentos da Junta Comercial do estado; lauda é unidade de contagem de caracteres, não a página física.
+- Não é necessário enviar o documento original pelos Correios: foto nítida ou PDF legível, frente e verso, basta.
+- A certidão de antecedentes criminais costuma valer 90 dias no órgão de destino; a tradução acompanha a validade da certidão.
+- Em regra, o apostilamento ou a legalização consular é feito primeiro, no documento original e no país de origem; a tradução juramentada vem depois e descreve também o selo.
+- Síria, Líbano e Egito **não** são partes da Convenção da Apostila: exigem legalização consular. Emirados Árabes Unidos, Arábia Saudita, Omã, Bahrein, Marrocos e Tunísia são partes e trocam apostila com o Brasil.
+
+## Como os conteúdos estão organizados
+
+Cada guia abre com uma resposta direta de um parágrafo, seguida de seções em forma de pergunta com respostas autônomas, tabelas comparativas, perguntas frequentes e a lista das fontes legais citadas (leis, decretos e páginas oficiais do MEC, CNJ, DREI, Receita Federal, Banco Central e HCCH). Todas as páginas têm versão em português e em árabe.
 
 ## Páginas principais
 
-- [Início (português)](https://yallaconecta.com/)
-- [Início (árabe)](https://yallaconecta.com/ar/)
+- [Início](https://yallaconecta.com/)
+- [Índice de artigos e guias](https://yallaconecta.com/artigos.html)
 - [Portal para tradutores parceiros](https://yallaconecta.com/portal-tradutor.html)
 
 ## Guias práticos
 
-- [Tradutor árabe-português: como escolher](https://yallaconecta.com/tradutor-arabe-portugues.html)
+- [Tradutor árabe-português: como escolher e como conferir a matrícula](https://yallaconecta.com/tradutor-arabe-portugues.html)
 - [Juramentada, certificada ou simples? A diferença na prática](https://yallaconecta.com/traducao-juramentada-certificada-simples.html)
-- [Apostila antes ou depois de traduzir?](https://yallaconecta.com/apostilamento-antes-ou-depois-de-traduzir.html)
-- [Revalidar diploma árabe no Brasil](https://yallaconecta.com/revalidar-diploma-universitario-arabe-no-brasil.html)
-- [Certidão de nascimento síria, libanesa ou egípcia](https://yallaconecta.com/traduzir-certidao-de-nascimento-siria-libano-egito.html)
-- [Abrir empresa no Brasil sendo estrangeiro árabe](https://yallaconecta.com/abrir-empresa-no-brasil-sendo-estrangeiro-arabe.html)
+- [Apostila antes ou depois de traduzir? A ordem correta](https://yallaconecta.com/apostilamento-antes-ou-depois-de-traduzir.html)
+- [Revalidar diploma árabe no Brasil: plataforma Carolina Bori e prazo de 180 dias](https://yallaconecta.com/revalidar-diploma-universitario-arabe-no-brasil.html)
+- [Traduzir certidão de nascimento síria, libanesa ou egípcia](https://yallaconecta.com/traduzir-certidao-de-nascimento-siria-libano-egito.html)
+- [Abrir empresa no Brasil sendo estrangeiro árabe: os documentos](https://yallaconecta.com/abrir-empresa-no-brasil-sendo-estrangeiro-arabe.html)
 
-## Artigos técnicos
+## Série técnica
 
-- [Artigos sobre tradução jurídica árabe-português](https://yallaconecta.github.io/artigos/)
+- [Índice da série técnica](https://yallaconecta.com/artigos/)
+- [Como traduzir «diligências» para o árabe: o equivalente muda com o contexto](https://yallaconecta.com/artigos/artigo-1.html)
+- [«Divergências» em árabe: cinco equivalentes e quando usar cada um](https://yallaconecta.com/artigos/artigo-2.html)
+- [Os cinco pilares da tradução juramentada árabe-português](https://yallaconecta.com/artigos/artigo-3.html)
+- [O risco oculto nos contratos árabe-português: onde a tradução vira litígio](https://yallaconecta.com/artigos/artigo-4.html)
+- [Halal e linguagem: como o rótulo em árabe protege a exportação brasileira](https://yallaconecta.com/artigos/artigo-5.html)
+- [IA na tradução de contratos: onde o algoritmo erra](https://yallaconecta.com/artigos/artigo-6.html)
+
+## Serviços
+
+- Tradução juramentada árabe-português (coordenada; assinada por tradutor público matriculado)
+- Tradução certificada árabe-português (executada pela YallaConecta)
+- Tradução técnica: manuais, laudos, bulas, fichas técnicas e documentação de exportação
+- Rótulos e documentação regulatória em árabe: SFDA (Arábia Saudita), GCC Halal, Dubai Municipality, MoIAT (Emirados)
+- Interpretação consecutiva e de acompanhamento (cartório, reuniões, feiras, audiências)
+- Localização para o mercado MENA: site, catálogo e campanha
 
 ## Contato
 
