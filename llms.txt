@@ -19,9 +19,11 @@ Cada guia abre com uma resposta direta de um parágrafo, seguida de seções em 
 
 ## Páginas principais
 
-- [Início](https://yallaconecta.com/)
+- [Início (português)](https://yallaconecta.com/)
+- [Início (árabe)](https://yallaconecta.com/ar/)
 - [Índice de artigos e guias](https://yallaconecta.com/artigos.html)
 - [Portal para tradutores parceiros](https://yallaconecta.com/portal-tradutor.html)
+- [A Ponte — apresentação visual da YallaConecta](https://yallaconecta.com/a-ponte.html)
 
 ## Guias práticos
 
